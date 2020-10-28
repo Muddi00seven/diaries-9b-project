@@ -5,4 +5,5 @@ export interface Entry {
   createdAt?: string;
   updatedAt?: string;
   diaryId?: string;
+
 }

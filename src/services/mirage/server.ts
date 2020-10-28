@@ -16,6 +16,7 @@ export const setupServer = (env?: string): Server => {
   return new Server({
     environment: env ?? 'development',
 
+    // for models
     models: {
       entry: Model.extend({
         diary: belongsTo(),
@@ -29,6 +30,7 @@ export const setupServer = (env?: string): Server => {
       }),
     },
 
+    // for factories
     factories: {
       user: Factory.extend({
         username: 'test',

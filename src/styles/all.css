@@ -45,7 +45,7 @@
     appearance: none;
     border: 1px solid var(--primary-color);
     color: rgb(255, 255, 255);
-    background-color: var(--primary-color);
+    background-color:rgb(128, 9, 9) ;
     text-transform: uppercase;
     font-weight: bold;
     outline: none;
@@ -62,7 +62,8 @@
   }
   
   button:hover{
-    color: gold;
+    color: rgb(0, 0, 0);
+    background-color: #fff;
   }
   button:focus {
     box-shadow: 1px 6px 8px rgba(0, 0, 0, 0.1);
@@ -161,8 +162,10 @@
     }
   }
   .Nav{
-    color: rgb(165, 55, 119);
+    color: rgb(128, 9, 9);
+
    text-align:center ;
-    text-shadow: 2px 2px 3px  rgb(119, 134, 201);
+    /* text-shadow: 2px 2px 3px  rgb(119, 134, 201); */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   

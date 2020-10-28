@@ -9,7 +9,6 @@ import { AuthResponse } from '../../services/mirage/routes/user';
 import { useAppDispatch } from '../../store';
 import { Typography, IconButton } from '@material-ui/core';
 import { GitHub, Facebook, Instagram } from '@material-ui/icons';
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const schema = Yup.object().shape({
   username: Yup.string()
     .required('What? No username?')
@@ -49,7 +48,7 @@ const Auth: FC = () => {
 
   return (
     <div>
-      <div className="Nav"><h1>Diaries-App</h1></div>
+      <div className="Nav"><h1>Get Started With Diary</h1></div>
     <div className="auth">
       <div className="card">
         <form onSubmit={handleSubmit(submitForm)}>
