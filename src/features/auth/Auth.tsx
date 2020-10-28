@@ -99,25 +99,7 @@ const Auth: FC = () => {
           </p>
         </form>
         
-          <div className="footer" >
-           
-          <Typography>
-             
-          <IconButton >
-          <div className="git">
-            <a href="https://github.com/Muhammad-Tayyab1"><GitHub/></a>
-           </div> <div className="fb">
-            <a href="https://web.facebook.com/profile.php?id=100031034920869"><Facebook/></a> 
-           </div>
-           <div className='in'>
-           <a href="https://www.instagram.com/muhammadtayyab575/?hl=en"><Instagram/></a>
-           </div>
          
-        </IconButton>
-       
-        </Typography>
-
-          </div>
      </div>
     </div>
     </div>

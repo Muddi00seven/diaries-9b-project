@@ -193,19 +193,3 @@ button:focus {
  text-align:center ;
   text-shadow: 2px 2px 3px  rgb(119, 134, 201);
 }
-.footer{
- 
-  align-items: center;
-}
-.git{
-  padding-left: 20px;
-  margin-left: 0px;
-}
-.fb{
-  padding-left: 20px;
-  margin-left: 0px;
-}
-.in{
-  padding-left: 20px;
-  margin-left: 0px;
-}
